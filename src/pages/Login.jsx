@@ -36,7 +36,7 @@ const Login = () => {
             <input
               className="bg-[#77776b] hover:bg-[#919181] w-full h-10 rounded-lg border-2 border-gray-500 cursor-pointer"
               type="submit"
-              value="Submit"
+              value="Login"
             />
           </form>
           <p className="text-center mt-5 text-[#38362c]">Not a member yet? <Link to="/signup"><span className="text-blue-900 font-bold">Sign Up</span></Link></p>

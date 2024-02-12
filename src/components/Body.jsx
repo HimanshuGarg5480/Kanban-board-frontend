@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
 import Homepage from "../pages/Homepage";
 import Login from "../pages/Login";
+import Signup from "../pages/Signup";
 
 
 const Body = () => {
@@ -16,6 +17,10 @@ const Body = () => {
       path: "/login",
       element: <Login />,
     },
+    {
+      path: "/signup",
+      element: <Signup />,
+    }
   ]);
   return <RouterProvider router={reactRouter} />;
 };
